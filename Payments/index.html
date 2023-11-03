@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payments</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-page navbar hidden">
+        <h2>Payments App</h2>
+        <form>
+          <input type="text" placeholder="Login" class="loginInput" />
+          <input type="password" placeholder="Parol" class="passwordInput" />
+          <button class="loginButton">Kirish</button>
+        </form>
+      </div>
+      <div class="payment-page">
+        <nav class="navbar">
+          <h2 class="title"></h2>
+          <p class="log-out">Chiqish</p>
+        </nav>
+
+        <main class="main">
+          <div class="left">
+            <div class="my-card">
+              <h2>Mening kartam</h2>
+              <div class="card">
+                <p class="card-type">****</p>
+                <div><img src="./assets/icon/Group 1.svg" alt="" /></div>
+                <p class="amount">$ ****</p>
+                <p class="fullName">*** ***</p>
+                <div class="card-info">
+                  <p class="card-num">**** **** **** ***</p>
+                  <p class="card-date">**/**</p>
+                </div>
+              </div>
+            </div>
+            <div class="payment">
+              <h2>Pul o’tkazish</h2>
+              <form>
+                <input
+                  type="text"
+                  placeholder="Karta raqami"
+                  class="transfer-card-number"
+                />
+                <input
+                  type="text"
+                  placeholder="Summasi"
+                  class="transfer-amount"
+                />
+                <button class="transfer-button">Yuborish</button>
+              </form>
+            </div>
+          </div>
+          <div class="pay-history">
+            <h2>O’tkazmalar tarixi</h2>
+            <div class="overal-history">
+              <div class="debt">+86,200$</div>
+              <div class="credit">-56,000$</div>
+            </div>
+            <ul class="all-history">
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount red">-6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount">+6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount red">-6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount">+6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount">+6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+              <li class="history-item">
+                <div>
+                  <p class="fullName">Abdug'aniyev Sardor</p>
+                  <p class="amount">+6,600$</p>
+                </div>
+                <div class="date">
+                  <p class="full-date">19.01.2022</p>
+                  <p class="time">18:50</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
